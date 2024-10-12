@@ -3,9 +3,36 @@
     padding:0px;
 }
 
-.navbar{
-    width:360px;
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: baseline;
+    background-color: blue;
+}
+
+.flex-container > div {
+    width: 120px;
+    margin: 10px;
     text-align: center;
+    line-height: 30px;
+    background-color: transparent;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.nav_link a{
+    text-decoration: none;
+    width:120px;
+    height:40px;
+    color:white;
+    vertical-align: center;
+}
+
+
+ /* .navbar{
+    width:360px;
     color: white;
     background-color: #051D61;
     horiz-align: center;
@@ -37,5 +64,10 @@
 
 .navbar li{
     width:120px;
-    float: left;
+    float: left;}
+
+*/
+
+img{
+    width: 120px;
 }
