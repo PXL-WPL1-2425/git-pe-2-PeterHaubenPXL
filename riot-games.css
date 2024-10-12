@@ -3,16 +3,23 @@
     padding:0px;
 }
 
+video{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 1420px;
+}
+
 .flex-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: baseline;
-    background-color: blue;
+    background-color: transparent;
 }
 
 .flex-container > div {
-    margin: 10px;
     text-align: center;
     background-color: transparent;
     font-size: 20px;
@@ -25,10 +32,12 @@ div a{
 }
 
 button{
+    position: relative;
+    top: -20px;
+    left: -100px;
     background-color: red;
     border-radius: 15px;
     height:30px;
-    padding:0px 5px;
     margin:0px;
     display: inline-block;
 }
@@ -41,19 +50,16 @@ button a{
 
 nav ul{
     list-style-type: none;
-    background-color: blue;
-    padding: 0px;
-    margin: 0px;
-    horiz-align: center;
+    background-color: transparent;
     overflow: hidden;
     justify-content: space-between;
     display: inline-block;
+
 }
 
 nav ul a{
     color: white;
     text-decoration: none;
-    padding: 15px;
     display: block;
     text-align: center;
 }
@@ -61,19 +67,11 @@ nav ul a{
 nav li{
     display: inline-block;
     background-color: transparent;
-    width:140px;
+    padding:5px;
+    /* width: 140px; */
 }
 
 nav li:hover{
     font-weight:700;
 }
-/*
-.navbar li{
-    width:120px;
 
-
-
-img{
-    width: 120px;
-}
- */
