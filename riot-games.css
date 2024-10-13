@@ -38,15 +38,15 @@ button{
     background-color: red;
     border-radius: 15px;
     height:30px;
-    margin:0px;
+    padding-left: 10px;
+    padding-right: 10px;
     display: inline-block;
 }
 
 button a{
     color: black;
+
 }
-
-
 
 nav ul{
     list-style-type: none;
@@ -68,7 +68,9 @@ nav li{
     display: inline-block;
     background-color: transparent;
     padding:5px;
-    /* width: 140px; */
+    /* width: 140px; verwijderd
+    anders kwam het 3e li-item in een witte wolk
+    en was dat item bijna onzichtbaar*/
 }
 
 nav li:hover{
